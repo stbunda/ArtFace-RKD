@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Image data (not public, available on request)
+data/
+data2/
+data3/
+
+# Third-party pre-trained models (download from InsightFace, see README)
+face_detection/model/R50/
+face_detection/model/R50.zip
+face_recognition/glint360k_cosface_r100/
+face_recognition/glint360k_cosface_r100.zip
+
+# PyInstaller build output (gender_labeler/build, gender_labeler/dist)
+build/
+dist/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local settings of the gender labeller (contains absolute paths)
+gender_labeler_config.json
+
+# Scratch notebooks
+Untitled*.ipynb
+* copy.ipynb
+examine_features_.ipynb
+
+# Robustness and bootstrap analysis (not part of the paper)
+figures/eer_bootstrap_ci*.png
+robustness_analysis.py
+robustness_t*/
+
+# Dataset curation notes (available on request with the data)
+painting_identification.xlsx
+duplicate_faces.xlsx

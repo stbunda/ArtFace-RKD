@@ -1,0 +1,8 @@
+Add in this folder:
+face_recognition/
+--> glint360k_cosface_r100/
+        glint360k_cosface_r100/
+        glint360k_cosface_r100_fp16_0.1/
+        backbone.pth
+        ...
+        ...

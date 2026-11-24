@@ -1,0 +1,6 @@
+Add in this folder
+face_detection/
+    model/
+------> R50/
+            R50-0000.params
+            R50-symbol.json
